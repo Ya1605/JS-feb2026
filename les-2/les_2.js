@@ -103,10 +103,32 @@ console.log('ERROR')
 //- Скласти розклад на тиждень за домопоги switch.
 //Користувач вводить порядковий номер дня тижня і на екрані відображається
 //інфа що заплановано на цей день (можна замість плану на день, назву дня англійською).
-
+let dayOfWeek = prompt('enter the day');
+switch (dayOfWeek){
+case '1':
+console.log('monday');
+break;
+case '2':
+console.log('tuesday');
+break;
+case '3':
+console.log('wednesday');
+break;
+default:
+console.log('error');
+}
 //- Користувач вводить або має два числа.
 //Потрібно знайти та вивести максимальне число з тих двох .
 //Також потрібно врахувати коли введені рівні числа.
-//
+let firstNum = prompt('enter first number');
+let secNumber = prompt('enter second number');
+
+if (firstNum > secNumber){
+alert("більше перше число");
+}else if(secNumber>firstNum){
+alert("друге число більше")
+}else{
+alert ("числа рівні")
+}
 //- є змінна х, яка може прийняти будь-яке значення (стрінг, число, undefined, null  і тд включно). Напишіть код який,
 // буде присвоювати змінній х значення "default"  якщо ви намагаєтесь присвоїти в неї falsy-значення (хибноподібні, тобто ті, які приводиться до false, а це 0 null undefined і тд).
