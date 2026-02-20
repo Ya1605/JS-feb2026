@@ -46,9 +46,55 @@ document.write("<hr>");
 
  </div>`);
  }
-//- За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
-//- За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
-//
+//- За допомогою циклу while
+ //вивести в документ 20 блоків h1 c довільним текстом всередині.
+//let user2 = [
+   // {name: 'vasya', age: 31, },
+    //{name: 'petya', age: 30, },
+    //{name: 'kolya', age: 29, },
+    //{name: 'olya', age: 28, },
+    //{name: 'max', age: 30, },
+    //{name: 'anya', age: 31, },
+    //{name: 'oleg', age: 28, },
+    //{name: 'andrey', age: 29, },
+    //{name: 'masha', age: 30, },
+    //{name: 'olya', age: 31, },
+    //{name: 'max', age: 31, }
+ //];
+
+ //let i =0;
+ //while (i< user2.length -3){
+ //let user = user2[i];
+ //document.write (`<div>
+   //             <h1> ${user.name} - ${user.age}</h1>
+     //            </div>`)
+       //          i++;
+ //}
+//- За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом
+//і індексом всередині.
+document.write("<hr>");
+let user3 = [
+    {name: 'vasya', age: 31, },
+    {name: 'petya', age: 30, },
+    {name: 'kolya', age: 29, },
+    {name: 'olya', age: 28, },
+    {name: 'max', age: 30, },
+    {name: 'anya', age: 31, },
+    {name: 'oleg', age: 28, },
+    {name: 'andrey', age: 29, },
+    {name: 'masha', age: 30, },
+    {name: 'olya', age: 31, },
+    {name: 'max', age: 31, }
+ ];
+
+ let i = 0;
+ while (i< user3.length){
+ let user1 = user3[i];
+ document.write (`<div>
+                <h3> ${user1.name} - ${user1.age} ${i}</h3>
+                 </div>`)
+                 i++;
+ }
 //- Використовуючи данні з масиву, за допомоги document.write та циклу
 //побудувати структуру по шаблону
 //Масив:
