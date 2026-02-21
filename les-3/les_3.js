@@ -114,7 +114,16 @@ let user3 = [
 //
 //замість 'ITEM OF ARRAY' підставити елемент з масиву щоб получився цілий список з даними з масиву
 //
-//-----------------------------------------------
+let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+let firstList = 0;
+while(firstList<listOfItems.length){
+let listOfItems1 = listOfItems[firstList];
+document.write(`<ul>
+<li>${listOfItems1}</li>
+
+</ul>`)
+firstList++;
+ }
 //
 //Використовуючи данні з масиву, за допомоги document.write та циклу
 //побудувати структуру по шаблону
