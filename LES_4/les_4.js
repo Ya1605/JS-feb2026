@@ -34,5 +34,5 @@ function ploshaCilindra(r,h) {
     return 2 * Math.PI * r * h 
 }
 
-console.log(ploshaCilindra(2, 4));
+console.log(ploshaCilindra(56, 4));
 
