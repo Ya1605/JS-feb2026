@@ -19,4 +19,4 @@
 function plocha(a,b) {
     return a * b;
 }
-plocha(4, 10);
+console.log(plocha(4, 10));
