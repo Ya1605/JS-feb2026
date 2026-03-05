@@ -45,8 +45,11 @@ let coursesAndDurationArray = [
 ];
 
 function allArray(array) {
-    
+    for (let index = 0; index < array.length; index++) {
+        
+        
+    }
 }
 
 
-console.log(allArray(array));
+console.log(allArray(coursesAndDurationArray));
