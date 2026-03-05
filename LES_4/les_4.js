@@ -45,8 +45,8 @@ let coursesAndDurationArray = [
 ];
 
 function allArray(array) {
-    console.log(array);
+    
 }
 
 
-
+console.log(allArray(array));
