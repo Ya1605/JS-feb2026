@@ -1,7 +1,4 @@
 
-
-
-// створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
 // створити функцію яка приймає масив та виводить кожен його елемент
 // створити функцію яка створює параграф з текстом. Текст задати через аргумент
 // створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
@@ -35,4 +32,21 @@ function ploshaCilindra(r,h) {
 }
 
 console.log(ploshaCilindra(56, 4));
+
+// створити функцію яка приймає масив та виводить кожен його елемент
+      
+let coursesAndDurationArray = [
+    {title: 'JavaScript Complex', monthDuration: 5},
+    {title: 'Java Complex', monthDuration: 6},
+    {title: 'Python Complex', monthDuration: 6},
+    {title: 'QA Complex', monthDuration: 4},
+    {title: 'FullStack', monthDuration: 7},
+    {title: 'Frontend', monthDuration: 4}
+];
+
+function allArray(array) {
+    console.log(array);
+}
+
+
 
