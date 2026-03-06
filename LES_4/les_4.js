@@ -86,7 +86,7 @@ function createList(insidetext, count) {
     }
 
     firstUl = firstUl + "</ul>";
-
+    return firstUl;
 
 }
 createList('you are my favourite', 4);
