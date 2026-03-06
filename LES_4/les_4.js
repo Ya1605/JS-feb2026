@@ -89,4 +89,4 @@ function createList(insidetext, count) {
     return firstUl;
 
 }
-createList('you are my favourite', 4);
+document.write (createList('you are my favourite', 4));
