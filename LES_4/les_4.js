@@ -64,7 +64,7 @@ textPar('how are you');
 
 function createUl(textli) {
     document.write(`<ul>
-        <li>${te[textli]}</li>
+        <li>${textli}</li>
         <li>${textli}</li>
         <li>${textli}</li>
         </ul>`)
