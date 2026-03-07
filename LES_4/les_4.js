@@ -3,7 +3,7 @@
 
 
 
-// створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
+
 // створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
 // створити функцію яка повертає найменьше число з масиву
 // створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
@@ -89,4 +89,21 @@ function createList(insidetext, count) {
     return firstUl;
 
 }
-document.write (createList('you are my favourite', 4));
+document.write(createList('you are my favourite', 4));
+
+// створити функцію яка приймає масив
+// примітивних елементів (числа,стрінги,булеві),
+// та будує для них список
+
+function createEl(array) {
+    let html = "<ul>"
+    for (const element of array) {
+        
+        html += `<li>${element}</li>`;
+    }
+  html +="</ul>"
+
+}
+const firstArray = [1, true, 'hello', 45];
+const listHtml = createEl(firstArray);
+document.write(listHtml);
