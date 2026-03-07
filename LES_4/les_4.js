@@ -126,7 +126,7 @@ function allUsers(array) {
     for (const element of array) {
         for (const key in object) {
             
-            document.write(`<div>${element[key]}</div>`);
+            document.write(`<div>${key}</div>`);
             
         }
         
