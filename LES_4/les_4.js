@@ -154,4 +154,4 @@ function minNum(arr) {
 }
 
 let numbers = [5, 8, 2, 10, 3];
-console.log(minNum(num));
+console.log(minNum(numbers));
