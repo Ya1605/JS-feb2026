@@ -96,12 +96,13 @@ document.write(createList('you are my favourite', 4));
 // та будує для них список
 
 function createEl(array) {
-    let html = "<ul>"
+    let html = "<ul>";
     for (const element of array) {
         
         html += `<li>${element}</li>`;
     }
-  html +="</ul>"
+    html += "</ul>"
+    return html;
 
 }
 const firstArray = [1, true, 'hello', 45];
