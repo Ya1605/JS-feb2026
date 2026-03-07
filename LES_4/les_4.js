@@ -124,8 +124,14 @@ document.write(listHtml);
     
 function allUsers(array) {
     for (const element of array) {
-        console.log(element);
+        for (const key in element) {
+            console.log(key);
+            
+            
+        }
+            
+        }
     }
-}
+
 
 allUsers(users);
