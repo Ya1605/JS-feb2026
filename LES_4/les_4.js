@@ -105,5 +105,5 @@ function createEl(array) {
 
 }
 const firstArray = [1, true, 'hello', 45];
-const listHtml = createEl(array);
+const listHtml = createEl(firstArray);
 document.write(listHtml);
