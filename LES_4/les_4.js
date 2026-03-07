@@ -131,7 +131,7 @@ function allUsers(array) {
             
         }
 
-        document.write(`</div>`)
+        document.write(`</div><hr>`)
         
         }
     }
