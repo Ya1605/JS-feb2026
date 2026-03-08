@@ -172,4 +172,21 @@ function plusAllNum(arr) {
 
 }
 
-console.log(plusAllNum ([1, 2, 10]));
+console.log(plusAllNum([1, 2, 10]));
+
+//найбільше число з масиву
+
+function maxNum(arr) {
+    
+    let startNum = arr[0];
+
+    for (const num of arr) {
+        if (num > startNum) {
+            num = startNum;
+        }
+    }
+    return startNum;
+}
+
+
+console.log(maxNum([3, 7, 2, 9, 5]));
