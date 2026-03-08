@@ -1,7 +1,7 @@
 
 
 
-// створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
+
 // створити функцію swap(arr,index1,index2). Функція міняє місцями заняення у відаовідних індексах
 //риклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]
 // Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
@@ -155,3 +155,21 @@ function minNum(arr) {
 
 let numbers = [5, 8, 2, 10, 3];
 console.log(minNum(numbers));
+
+// створити функцію sum(arr)яка приймає масив чисел,
+//  сумує значення елементів масиву та повертає його.
+//  Приклад sum([1,2,10]) //->13
+
+function plusAllNum(arr) {
+    
+    let num = 0;
+
+    for (const value of arr) {
+        num += value;
+    }
+
+    return num;
+
+}
+
+console.log(sum = [1, 2, 10]);
