@@ -1,7 +1,4 @@
 
-// Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
-//риклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250
-//
 //   - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
 function plocha(a,b) {
     return a * b;
@@ -221,3 +218,18 @@ function swap(arr,index1,index2) {
 }
 
 console.log(swap([11, 22, 33, 44], 1, 2));
+
+// Написати функцію обміну валюти
+// exchange(sumUAH,currencyValues,exchangeCurrency)
+//риклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250
+
+function exchange(sumUAH,currencyValues,exchangeCurrency) {
+      for (const valueElem of currencyValues) {
+            if (valueElem === currencyValues.currency) {
+                return sumUAH / currencyValues.value;
+            }
+      }
+}
+
+const res = exchange(10000, [{ currency: 'USD', value: 40 }, { currency: 'EUR', value: 42 }], 'USD');
+console.log(res);
