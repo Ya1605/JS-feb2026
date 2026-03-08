@@ -225,8 +225,8 @@ console.log(swap([11, 22, 33, 44], 1, 2));
 
 function exchange(sumUAH,currencyValues,exchangeCurrency) {
       for (const valueElem of currencyValues) {
-            if (valueElem.currency === exchangeCurrency.currency) {
-                return sumUAH / currencyValues.value;
+            if (valueElem.currency === exchangeCurrency) {
+                return sumUAH / valueElem.value;
             }
       }
 }
