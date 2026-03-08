@@ -172,4 +172,4 @@ function plusAllNum(arr) {
 
 }
 
-console.log(plusAllNum [1, 2, 10]);
+console.log(plusAllNum ([1, 2, 10]));
