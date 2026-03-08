@@ -182,7 +182,7 @@ function maxNum(arr) {
 
     for (const num of arr) {
         if (num > startNum) {
-            num = startNum;
+            startNum = num;
         }
     }
     return startNum;
