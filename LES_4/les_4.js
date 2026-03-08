@@ -190,3 +190,25 @@ function maxNum(arr) {
 
 
 console.log(maxNum([3, 7, 2, 9, 5]));
+
+
+//переше і друге більше
+
+function secondMax(array) {
+    let max = -Infinity;
+    let secMax = Infinity;
+
+    for (const element of array) {
+        if (element > max) {
+            secMax = max;
+            max = element;
+        } else if (element > secMax && element !== max) {
+            secMax = element;
+        }
+    }
+
+    return secMax;
+
+}
+
+console.log(secondMax([3, 7, 2, 9, 5]));
