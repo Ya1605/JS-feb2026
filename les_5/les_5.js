@@ -104,13 +104,14 @@ document.write(getAllObject(array));
 //- створити функцію яка повертає
 //  найменьше число з масиву
 const smallerNumber = (numbers) => {
-    let num = arr[0];
+    let num = numbers[0];
     for (const element of numbers) {
             if (element<num) {
                 num = element;
         }
-        return num;
+        
     }
+    return num;
 }
 
 let numbers = [5, 8, 2, 10, 3];
