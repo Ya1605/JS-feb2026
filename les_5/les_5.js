@@ -63,11 +63,11 @@ document.write(arrPrymNum("hohohihi", 5));
 const arrMyValue = (array) => {
 
     for (const element of array) {
-        
-    }
-    `<ul>
+        `<ul>
       <li>${element}</li>
     </ul>`
+    }
+    
 
 }
 
