@@ -96,7 +96,7 @@ const getAllObject = (array) => {
             document.write(`<p>${key} - ${element[key]}</p>`)
             
         }
-        document.write(`</div>`);
+        document.write(`</div><hr>`);
     }
 
 }
