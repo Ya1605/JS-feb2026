@@ -75,7 +75,7 @@ document.write(arrMyValue([10, true, "hello", 66]));
 //- створити функцію яка приймає масив об'єктів з
 // наступними полями id, name, age, та виводить їх в
 // документ.Для кожного об'єкту окремий блок.
-let users = [
+let array = [
         {name: 'vasya', age: 31, status: false},
         {name: 'petya', age: 30, status: true},
         {name: 'kolya', age: 29, status: true},
