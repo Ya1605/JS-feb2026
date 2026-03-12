@@ -62,7 +62,7 @@ document.write(arrPrymNum("hohohihi", 5));
 //- створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
 const arrMyValue = (array) => {
     `<ul>
-      <li>${text}</li>
+      <li>${array}</li>
     </ul>`
 
 }
