@@ -115,7 +115,7 @@ const smallerNumber = (numbers) => {
 }
 
 let numbers = [5, 8, 2, 10, 3];
-document.write(smallerNumber(numbers));
+console.log(smallerNumber(numbers));
 //- створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
 //- створити функцію swap(arr,index1,index2). Функція міняє місцями заняення у відаовідних індексах
 //Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]
