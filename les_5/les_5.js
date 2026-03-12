@@ -101,7 +101,20 @@ const getAllObject = (array) => {
 
 }
 document.write(getAllObject(array));
-//- створити функцію яка повертає найменьше число з масиву
+//- створити функцію яка повертає
+//  найменьше число з масиву
+const smallerNumber = (numbers) => {
+    let num = arr[0];
+    for (const element of numbers) {
+            if (element<num) {
+                num = element;
+        }
+        return num;
+    }
+}
+
+let numbers = [5, 8, 2, 10, 3];
+document.write(smallerNumber(numbers));
 //- створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
 //- створити функцію swap(arr,index1,index2). Функція міняє місцями заняення у відаовідних індексах
 //Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]
