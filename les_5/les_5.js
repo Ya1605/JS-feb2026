@@ -128,7 +128,7 @@ const sum = (arr) => {
     return start;
 
 }
-document.write(sum([1, 2, 10])`<hr`);
+document.write(sum([1, 2, 10]));
 //- створити функцію swap(arr,index1,index2). Функція міняє місцями заняення у відаовідних індексах
 //Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]
 const swap = (arr,index1,index2) => {
