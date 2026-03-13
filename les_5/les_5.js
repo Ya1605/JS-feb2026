@@ -134,7 +134,7 @@ document.write(sum([1, 2, 10]));
 const swap = (arr,index1,index2) => {
     const temp = arr[index1];
     arr[index1] = arr[index2];
-    arr[index1] = temp;
+    arr[index2] = temp;
     return arr;
 }
 
