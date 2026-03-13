@@ -139,7 +139,17 @@ const swap = (arr,index1,index2) => {
 }
 
 console.log(swap([11, 22, 33, 44],2, 3));
-//- Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
-//Приклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250
+//- Написати функцію обміну валюти exchange
+// (sumUAH,currencyValues,exchangeCurrency)
+//Приклад exchange
+// (10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250
 
-
+const exchange = (sumUAH, currencyValues, exchangeCurrency) => {
+       for (const element of currencyValues) {
+            if (element.currency === exchangeCurrency ) {
+                return sumUAH / element.value;
+            }
+       }
+}
+const res = (10000, [{ currency: 'USD', value: 40 }, { currency: 'EUR', value: 42 }], 'USD');
+console.log(res);
