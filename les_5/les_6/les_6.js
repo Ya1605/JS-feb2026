@@ -10,27 +10,27 @@ for (let index = 0; index < strings.length; index++) {
 //- Перевести до великого регістру наступні стрінгові значення
 //    'hello world', 'lorem ipsum', 'javascript is cool'
 let str = 'hello world';
-console.log(str.toUpperCase);
+console.log(str.toUpperCase());
 
 let str1 = "lorem ipsum";
-console.log(str1.toUpperCase);
+console.log(str1.toUpperCase());
 
 let str2 = "javascript is cool";
-console.log(str2.toUpperCase);
+console.log(str2.toUpperCase());
 //- Перевести до нижнього регістру настипні стрінгові значення
 //    'HELLO WORLD', 'LOREM IPSUM', 'JAVASCRIPT IS COOL'
 let hello = "HELLO WORLD";
-console.log(hello.toLowerCase);
+console.log(hello.toLowerCase());
 
 let hello1 = "LOREM IPSUM";
-console.log(hello1.toLowerCase);
+console.log(hello1.toLowerCase());
 
 let hello2 = "JAVASCRIPT IS COOL";
-console.log(hello2.toLowerCase);
+console.log(hello2.toLowerCase());
 
 //- Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів.
 let str4 = ' dirty string   ';
-let cleanStr = str4.trim;
+let cleanStr = str4.trim();
 
 console.log(cleanStr);
 //- Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів.
