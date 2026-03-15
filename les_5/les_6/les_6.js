@@ -8,16 +8,42 @@ for (let index = 0; index < strings.length; index++) {
 
 
 //- Перевести до великого регістру наступні стрінгові значення
-  //    'hello world', 'lorem ipsum', 'javascript is cool'
-//- Перевести до нижнього регістру настипні стрінгові значення
-  //    'HELLO WORLD', 'LOREM IPSUM', 'JAVASCRIPT IS COOL'
-//- Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів.
+//    'hello world', 'lorem ipsum', 'javascript is cool'
+let str = "hello world";
+console.log(str.toUpperCase);
 
+let str1 = "lorem ipsum";
+console.log(str1.toUpperCase);
+
+let str2 = "javascript is cool";
+console.log(str2.toUpperCase);
+//- Перевести до нижнього регістру настипні стрінгові значення
+//    'HELLO WORLD', 'LOREM IPSUM', 'JAVASCRIPT IS COOL'
+let helo = "HELLO WORLD";
+console.log(helo.toLowerCase);
+
+let helo1 = "LOREM IPSUM";
+console.log(helo1.toLowerCase);
+
+let helo2 = "JAVASCRIPT IS COOL";
+console.log(helo2.toLowerCase);
+
+//- Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів.
+let str4 = ' dirty string   ';
+let cleanStr = str.trim;
+
+console.log(cleanStr);
 //- Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів.
   //  let str = 'Ревуть воли як ясла повні';
     //let arr = stringToarray(str); ['Ревуть', 'воли', 'як', 'ясла', 'повні']
+     let str5 = 'Ревуть воли як ясла повні';
+let newStr5 = str5.split('');
+console.log(newStr5);
 
-//- є масив чисел [10,8,-7,55,987,-1011,0,1050,0] . за допомоги map  перетворити всі об'єкти в масиві на стрінгові.
+
+//- є масив чисел [10,8,-7,55,987,-1011,0,1050,0] . за допомоги map
+//   перетворити всі об'єкти в масиві на стрінгові.
+
 //- створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
 //let nums = [11,21,3];
 //sortNums(nums,'ascending') // [3,11,21]
