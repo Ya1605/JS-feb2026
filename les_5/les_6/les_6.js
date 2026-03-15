@@ -9,7 +9,7 @@ for (let index = 0; index < strings.length; index++) {
 
 //- Перевести до великого регістру наступні стрінгові значення
 //    'hello world', 'lorem ipsum', 'javascript is cool'
-let str = "hello world";
+let str = 'hello world';
 console.log(str.toUpperCase);
 
 let str1 = "lorem ipsum";
