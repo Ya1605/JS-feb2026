@@ -30,7 +30,7 @@ console.log(helo2.toLowerCase);
 
 //- Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів.
 let str4 = ' dirty string   ';
-let cleanStr = str.trim;
+let cleanStr = str4.trim;
 
 console.log(cleanStr);
 //- Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів.
