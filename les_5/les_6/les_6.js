@@ -3,7 +3,7 @@
  
 let strings = ['hello world', 'lorem ipsum', 'javascript is cool'];
 for (let index = 0; index < strings.length; index++) {
-    document.write(strings[i].length);
+    document.write(strings[index].length);
     }
 
 
