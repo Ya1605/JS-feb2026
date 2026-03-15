@@ -19,14 +19,14 @@ let str2 = "javascript is cool";
 console.log(str2.toUpperCase);
 //- Перевести до нижнього регістру настипні стрінгові значення
 //    'HELLO WORLD', 'LOREM IPSUM', 'JAVASCRIPT IS COOL'
-let helo = "HELLO WORLD";
-console.log(helo.toLowerCase);
+let hello = "HELLO WORLD";
+console.log(hello.toLowerCase);
 
-let helo1 = "LOREM IPSUM";
-console.log(helo1.toLowerCase);
+let hello1 = "LOREM IPSUM";
+console.log(hello1.toLowerCase);
 
-let helo2 = "JAVASCRIPT IS COOL";
-console.log(helo2.toLowerCase);
+let hello2 = "JAVASCRIPT IS COOL";
+console.log(hello2.toLowerCase);
 
 //- Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів.
 let str4 = ' dirty string   ';
