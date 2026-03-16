@@ -51,7 +51,7 @@ console.log(string);
 
 const secNum = [10, 20, 30];
 const secNum2 = secNum.push("gggg");
-console.log(secNum2);
+console.log(secNum);
 
 //- створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
 //let nums = [11,21,3];
