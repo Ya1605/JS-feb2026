@@ -119,13 +119,27 @@ console.log(coursesAndDurationArray);
 
 //=========================
 
-//Взяти описану колоду карт, та за допомоги reduce упакувати всі карти по "мастях" в об'єкт
-//{
-  //  spades:[],
-    //diamonds:[],
-    //hearts:[],
-    //clubs:[]
-//}
+//Розділити масив чисел на два масиви:
+
+//позитивні
+
+//негативні
+
+const nuvmbBig = [10, -5, 7, -3, 0, 8, -1];
+
+const rest = nuvmbBig.reduce((acc, secnum) => {
+  if (num >= 0) {
+    acc[0].push(secnum);
+    
+  } else {
+    acc[1].push(secnum);
+  }
+  return acc;
+}, [[], []]);
+
+console.log(rest);
+
+
 //=========================
 //взяти з arrays.js (який лежить в папці 2023 plan) масив coursesArray
 //--написати пошук всіх об'єктів, в який в modules є sass
