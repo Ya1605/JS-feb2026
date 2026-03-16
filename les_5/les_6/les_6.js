@@ -114,6 +114,7 @@ let mapCourse = coursesAndDurationArray.map(function (value, index) {
   return { ...value, id: index + 1 };
 }) 
 console.log(mapCourse);
+console.log(coursesAndDurationArray);
 
 
 //=========================
