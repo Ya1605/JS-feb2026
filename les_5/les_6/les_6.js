@@ -104,8 +104,17 @@ console.log(nums2([...nums3], "ccc"));
     {title: 'Frontend', monthDuration: 4}
 ];
 
-const sortCourse = (arr) => arr.sort((a, b) => a - b);
-console.log(sortCourse([...coursesAndDurationArray]));
+coursesAndDurationArray.sort((a, b) => b.monthDuration - a.monthDuration);
+console.log(coursesAndDurationArray);
+
+const result = coursesAndDurationArray.filter(course => course.monthDuration > 5);
+console.log(result);
+
+let mapCourse = coursesAndDurationArray.map(function (value, index) {
+  return { ...value, id: index + 1 };
+}) 
+console.log(mapCourse);
+
 
 //=========================
 
