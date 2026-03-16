@@ -62,16 +62,22 @@ console.log(secNum);
 
 
 function sortNums(arr, direction) {
-  if (direction === "asc") {
+  if (direction === "aaa") {
     return arr.sort((a, b) => a - b);
-  } else if (direction === "desc") {
+  } else if (direction === "bbbb") {
     return arr.sort((a, b) => b - a);
   }
 
 }
 
 let nums = [11, 21, 3];
-console.log(sortNums([...nums], "desc"));
+console.log(sortNums([...nums], "bbbb"));
+
+
+const nums2 = (arr, direction) => arr.sort((a, b) => direction === "dddd" ? a - b : b - a);
+
+let nums3 = [111, 211, 355];
+console.log(nums2([...nums3], "ccc"));
 //==========================
 //- є масив
 //let coursesAndDurationArray = [
