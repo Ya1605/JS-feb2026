@@ -53,11 +53,25 @@ const secNum = [10, 20, 30];
 const secNum2 = secNum.push("gggg");
 console.log(secNum);
 
-//- створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
+//- створити функцію sortNums(direction), яка прймає масив чисел,
+//  та сортує його від більшого до меньшого, або навпаки в 
+// залежності від значення аргументу direction.
 //let nums = [11,21,3];
 //sortNums(nums,'ascending') // [3,11,21]
 //sortNums(nums,'descending') // [21,11,3]
 
+
+function sortNums(arr, direction) {
+  if (direction === "asc") {
+    return arr.sort((a, b) => a - b);
+  } else if (direction === "desc") {
+    return arr.sort((a, b) => b - a);
+  }
+
+}
+
+let nums = [11, 21, 3];
+console.log(sortNums[...nums], "desc");
 //==========================
 //- є масив
 //let coursesAndDurationArray = [
