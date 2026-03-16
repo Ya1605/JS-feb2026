@@ -128,7 +128,7 @@ console.log(coursesAndDurationArray);
 const nuvmbBig = [10, -5, 7, -3, 0, 8, -1];
 
 const rest = nuvmbBig.reduce((acc, secnum) => {
-  if (num >= 0) {
+  if (secnum >= 0) {
     acc[0].push(secnum);
     
   } else {
