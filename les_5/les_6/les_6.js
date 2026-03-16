@@ -71,7 +71,7 @@ function sortNums(arr, direction) {
 }
 
 let nums = [11, 21, 3];
-console.log(sortNums[...nums], "desc");
+console.log(sortNums([...nums], "desc"));
 //==========================
 //- є масив
 //let coursesAndDurationArray = [
